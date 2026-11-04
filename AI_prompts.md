@@ -197,3 +197,18 @@ A log of what I typed to my vibe coder (Claude Code), one section per problem.
 **Follow-up prompt:** None needed. The first prompt covered the whole task. (Claude read "campus customers" as Campus Customs and made an original ink-and-indigo samurai look rather than copying any show's art.)
 
 ---
+
+## Problem 10: Push to GitHub and submit the URL
+
+**Prompt:**
+> alright now lets push the project to our public githuc repository and then we'll submit the repo url on canvas which graders will clone, so we've gotta make sure it opens and the files that are listed below are all there and accounted for
+>
+> we need to include the whole data/ folder so graders can clone the rpo and run the agent right away, don't commit the real .env file - we gotta use .gitingore to keep it out and include .env.example with placeholders only - make sense? for files and layout of the repo look at the screenshot
+>
+> also other python files are fine... pls include a short note in README.md on how to run the agent
+
+**Follow-up prompt:** None needed. The first prompt covered the whole task.
+
+**Repo:** https://github.com/n-gallagher/hw6
+
+---

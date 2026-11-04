@@ -1,5 +1,7 @@
 # HW6: Campus Customs Vendor Desk Agent (Tokenomics + Prompt Injection)
 
+**Repo:** https://github.com/n-gallagher/hw6
+
 A PydanticAI agent that reads one vendor document (HTML quote, PDF quote or `.eml` email), pulls out the vendor, SKU, unit price, lead time and minimum order, and decides `recommend` or `do_not_recommend` using the rules in the Campus Customs Shop Handbook. It runs **gpt-6-luna** through Portkey, and it's the only model used anywhere in this repo.
 
 Open **`output/hw6_report.html`** in any browser for the full results page (one self-contained file, works offline).
