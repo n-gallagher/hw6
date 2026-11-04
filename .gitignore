@@ -1,0 +1,11 @@
+# Secrets: never commit the real key
+.env
+
+# Local environment and caches
+.venv/
+__pycache__/
+*.pyc
+.claude/
+
+# Test files rebuilt by tests/test_cleaner.py
+data/test_fixtures/

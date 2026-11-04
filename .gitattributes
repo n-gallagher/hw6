@@ -1,0 +1,4 @@
+# Keep vendor documents byte-for-byte exact (PDF offsets, email parts, hidden-text tricks)
+*.pdf binary
+*.eml -text
+data/** -text
